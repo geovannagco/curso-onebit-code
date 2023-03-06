@@ -1,6 +1,7 @@
 h1 {
   font-size: 45px;
   color: #5b66a6;
+  border: 2px dashed azure;
 }
 
 h3 {
@@ -10,4 +11,10 @@ h3 {
 
 li {
   color: gray;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/14618855/pexels-photo-14618855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
