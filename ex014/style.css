@@ -13,6 +13,18 @@ li {
   color: gray;
 }
 
+.moon {
+  color: yellow;
+}
+
+.big-text {
+  font-size: 40px;
+}
+
+#temisto-size {
+  font-size: 60px;
+}
+
 body {
   background-image: url(https://images.pexels.com/photos/14618855/pexels-photo-14618855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
