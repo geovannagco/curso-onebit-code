@@ -1,0 +1,45 @@
+/* * {
+  border: 2px solid;
+}
+*/
+/* O seletor * tem como alvo todos os elementos de uma página. É comumente usado para zerar as margens e os preenchimentos.*/
+li a {
+  color: aqua;
+}
+/* Seletor Descendente - serve para aplicar estilo somente em tags específicas que são descendentes de outras tags.*/
+
+div#teste > h2 {
+  color: aquamarine;
+}
+/*Seletor de Filhos - seleciona nós que são filhos diretos do elemento especificado anteriormente.*/
+
+h1 + h2 {
+  border: solid;
+}
+/*Seletor Adjacente - seleciona somente o elemento imediatamente após o primeiro elemento.*/
+
+a[href='/recibo'] {
+  background-color: gray;
+}
+/*Seletor de Atributos - Aplica uma determinada formatação a certos elementos com base no valor de um atributo */
+
+li:nth-of-type(2) {
+  color: purple;
+}
+/*Seletor :nth-of-type(n) - Corresponde a cada elemento que é o enésimo filho do mesmo tipo (nome da tag), de seu pai*/
+
+a:link {
+  color: red;
+}
+a:visited {
+  color: blueviolet;
+}
+
+h2 ~ ul {
+  border: dashed;
+}
+/*Seletor de Irmãos - seleciona os nós que seguem (não necessariamente de imediato) o elemento especificado anteriormente. É menos restritivo que o Seletor de Filhos*/
+
+a[href^='/recibo'] {
+  background-color: blue;
+}
